@@ -1,0 +1,27 @@
+{
+  "name": "url-shortner-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yalchin403/express-urlshortener-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yalchin403/express-urlshortener-api/issues"
+  },
+  "homepage": "https://github.com/Yalchin403/express-urlshortener-api#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
