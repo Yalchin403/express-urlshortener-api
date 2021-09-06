@@ -4,15 +4,15 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var UrlSchema = new Schema({
-  fullUrl: {
+  longUrl: {
     type: String,
     required: true,
   },
   shortUrl: String,
-  slug: String,
-  createdAt: {
+  urlCode: String,
+  date: {
     type: String,
-    required: [true, Date.now]
+    default: Date.now
   }
 });
 

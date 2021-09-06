@@ -1,0 +1,9 @@
+POST http://localhost:8000/api/url/shorten/
+Content-Type: application/json
+
+{
+    "longUrl": "s"
+}
+
+GET http://localhost:8000/:urlCode
+Content-Type: application/json
