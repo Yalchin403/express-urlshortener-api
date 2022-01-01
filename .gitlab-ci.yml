@@ -1,0 +1,7 @@
+api:
+  script:
+    - npm install
+    - npm install -g nodemon
+    - nodemon app.js
+    - only:
+       - ci
