@@ -2,6 +2,7 @@ stages:
   - api
 
 api:
+  image: node
   stage: api
   script:
     - npm install
