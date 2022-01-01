@@ -1,4 +1,8 @@
+stages:
+  - api
+
 api:
+  stage: api
   script:
     - npm install
     - npm install -g nodemon
